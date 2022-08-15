@@ -5,7 +5,7 @@ html {
     width: 100%;
     max-width: 100%;
     background-color:white;
-    color: black;
+    color: rgb(86, 86, 86);
     font-size: 12px;
     font-family:'Courier New', monospace;;
   }
@@ -20,5 +20,51 @@ html {
   }
   
   #header {
-    background-color: lightgrey;
+    background-color: rgb(212, 121, 121);
   }
+
+  p {
+    font-size: 1.5rem;
+  }
+  
+
+  a:link {
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(86, 86, 86);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-color: rgb(212, 121, 121);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+#left{
+    /* background-color: aqua; */
+    width: 20%;
+    height: 800px;
+    float: left;
+  }
+
+  #right{
+    /* background-color: rgb(35, 81, 161); */
+    width: 80%;
+    height: 800px;
+    float: right;
+
+  }
+#thumb{
+  width: 800px;
+  
+}
