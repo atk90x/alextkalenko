@@ -1,0 +1,80 @@
+html {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 100%;
+    max-width: 100%;
+    background-color:white;
+    color: rgb(86, 86, 86);
+    font-size: 1rem;
+    font-family:'Courier New', monospace;;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+  #header {
+    /* background-color: rgb(86, 190, 86); */
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  
+
+  a:link {
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(86, 86, 86);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-color: rgb(212, 121, 121);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+#left{
+    /* background-color: aqua; */
+    text-align: left;
+    width: 40%;
+    height: 800px;
+    float: left;
+  }
+
+  #right{
+    /* background-color: rgb(35, 81, 161); */
+    width: 60%;
+    height: 800px;
+    float: right;
+
+  }
+#stdimage{
+  width: 700px;
+  
+}
+#iframe{
+  border: 0; 
+  width: 500px; 
+  height: 600px;
+}
+
+#musicvideo{
+  width :550px;
+  height:315px; 
+}
